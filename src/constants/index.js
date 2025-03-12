@@ -45,23 +45,8 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Talk-A-Tive",
-    image: project1,
-    description:
-      "A real-time chat application for online chats, group chat creation, group name updates, and member management.",
-    technologies: [
-      "Express.js",
-      "Node.js",
-      "React.js",
-      "Shadcn - UI",
-      "Mongoose",
-      "JavaScript",
-      "Cloudinary",
-    ],
-  },
-  {
     title: "Learning Management System(LMS)",
-    image: project2,
+    image: project1,
     description:
       "An interactive web application for managing e-learning experiences for students and educators.",
     technologies: [
@@ -71,6 +56,21 @@ export const PROJECTS = [
       "JavaScript",
       "Mongoose",
       "Socket.IO",
+      "Cloudinary",
+    ],
+  },
+  {
+    title: "Talk-A-Tive",
+    image: project2,
+    description:
+      "A real-time chat application for online chats, group chat creation, group name updates, and member management.",
+    technologies: [
+      "Express.js",
+      "Node.js",
+      "React.js",
+      "Shadcn - UI",
+      "Mongoose",
+      "JavaScript",
       "Cloudinary",
     ],
   },
