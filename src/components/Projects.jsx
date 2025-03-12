@@ -43,10 +43,12 @@ const Projects = () => {
                   className="bg-red-600 text-white border border-red-700 rounded-md px-2 py-2"
                   onClick={() =>
                     project?.title == "Talk-A-Tive"
-                      ? (window.location.href =
-                          "https://github.com/Akash290104/Final-Chat-Application")
-                      : (window.location.href =
-                          "https://github.com/Akash290104/Learning-Management-System-LMS-")
+                      ? window.open(
+                          "https://github.com/Akash290104/Final-Chat-Application"
+                        )
+                      : window.open(
+                          "https://github.com/Akash290104/Learning-Management-System-LMS-"
+                        )
                   }
                 >
                   Github Repo
@@ -55,10 +57,12 @@ const Projects = () => {
                   className="bg-red-600 text-white border border-red-700 rounded-md px-2 py-2 ml-5"
                   onClick={() =>
                     project?.title == "Talk-A-Tive"
-                      ? (window.location.href =
-                          "https://final-chat-application-xi.vercel.app/")
-                      : (window.location.href =
-                          "https://learning-management-system-lms-gray.vercel.app")
+                      ? window.open(
+                          "https://final-chat-application-xi.vercel.app/"
+                        )
+                      : window.open(
+                          "https://learning-management-system-lms-gray.vercel.app"
+                        )
                   }
                 >
                   Live link
