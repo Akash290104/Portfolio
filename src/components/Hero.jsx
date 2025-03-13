@@ -14,7 +14,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="mt-10 border-b border-neutral-900 pb-4 lg:mb-16 sm:mb-20">
+    <div className="mt-10 border-b border-neutral-900 pb-4 lg:mb-16 sm:mt-20">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
