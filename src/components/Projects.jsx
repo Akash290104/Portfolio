@@ -8,7 +8,7 @@ const Projects = () => {
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 1.0 }}
         className="my-20 text-center text-4xl"
       >
         Projects
@@ -19,7 +19,7 @@ const Projects = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 1.0 }}
               key={index}
               className="w-full lg:w-1/2 sm:mb-10"
             >
@@ -34,7 +34,7 @@ const Projects = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 1.0 }}
               className="w-full max-w-xl lg:w-1/2"
             >
               <h6 className="mb-2 font-semibold text-2xl">{project?.title}</h6>
