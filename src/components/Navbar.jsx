@@ -86,7 +86,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
           </a>
 
           <a
-            href="https://bit.ly/4kF51LT"
+            href="https://drive.google.com/uc?export=download&id=1uSNyND4sVdDvY0Oljtww_4uZIwWQSAEN"
             download
             className="flex items-center gap-2 hover:text-cyan-300 transition"
           >
