@@ -31,7 +31,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
             <FaLinkedin />
           </a>
           <a
-            href="https://bit.ly/4gnwxuH"
+            href="https://github.com/Akash290104"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cyan-300 transition"
@@ -51,7 +51,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
             <FaProjectDiagram /> See My Projects
           </button>
           <a
-            href="https://bit.ly/4hlSD0l"
+            href="https://drive.google.com/file/d/1uSNyND4sVdDvY0Oljtww_4uZIwWQSAEN/view"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg font-medium border-b-2 border-transparent hover:border-white transition"
@@ -77,7 +77,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
           </button>
 
           <a
-            href="https://bit.ly/4hlSD0l"
+            href="https://drive.google.com/file/d/1uSNyND4sVdDvY0Oljtww_4uZIwWQSAEN/view"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-cyan-300 transition"

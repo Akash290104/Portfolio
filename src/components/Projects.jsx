@@ -15,13 +15,13 @@ const Projects = () => {
       </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
-          <div className="mb-8 mt-25 flex flex-wrap lg:justify-between">
+          <div className="mb-8 mt-25 flex flex-wrap lg:justify-between  ">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
               key={index}
-              className="w-full lg:w-1/2"
+              className="w-full lg:w-1/2 sm:mb-10"
             >
               <img
                 src={project?.image}
@@ -38,7 +38,7 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-1/2"
             >
               <h6 className="mb-2 font-semibold text-2xl">{project?.title}</h6>
-              <div className="flex">
+              <div className="flex mb-5">
                 <button
                   className="bg-red-600 text-white border border-red-700 rounded-md px-2 py-2"
                   onClick={() =>
@@ -71,7 +71,7 @@ const Projects = () => {
               <p className="mb-4 text-neutral-400 text-2xl">
                 {project?.description}
               </p>
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap gap-y-2">
                 {project.technologies?.map((tech, index) => (
                   <span
                     key={index}
