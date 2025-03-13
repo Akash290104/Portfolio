@@ -68,14 +68,14 @@ const Projects = () => {
                   Live link
                 </button>
               </div>
-              <p className="mb-4 text-neutral-400 text-2xl">
+              <p className="mb-4 text-neutral-400 text-xl">
                 {project?.description}
               </p>
               <div className="flex flex-wrap gap-y-2">
                 {project.technologies?.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-green-500 text-2xl"
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-green-500 text-xl"
                   >
                     {tech}
                   </span>
