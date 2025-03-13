@@ -21,7 +21,7 @@ const Projects = () => {
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1.0 }}
               key={index}
-              className="w-full lg:w-1/2 sm:mb-10"
+              className="w-full lg:w-1/2 mb-10 sm:mb-10"
             >
               <img
                 src={project?.image}

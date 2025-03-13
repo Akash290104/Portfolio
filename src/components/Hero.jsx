@@ -61,14 +61,14 @@ const Hero = () => {
                 <React.Fragment key={index}>
                   {line}
                   <br />
-                  <br/>
+                  <br />
                 </React.Fragment>
               ))}
             </motion.p>
           </div>
         </div>
         <div className="w-full lg:w-1/3 lg:p-8 ml-10">
-          <div className="flex justify-center">
+          <div className="flex w-full justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
