@@ -77,7 +77,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Maharajganj, Uttar Pradesh",
+  address: "Ranchi, Jharkhand",
   phoneNo: "+91-8874923563",
   email: "mishra.ak801@gmail.com",
 };
