@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/lms.png";
 import project2 from "../assets/projects/chatApp.png";
+import project3 from "../assets/projects/storeit.png";
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 
@@ -46,6 +47,8 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Learning Management System(LMS)",
+    repo: "https://github.com/Akash290104/Learning-Management-System-LMS-",
+    live: "https://learning-management-system-lms-gray.vercel.app",
     image: project1,
     description:
       "An interactive web application for managing e-learning experiences for students and educators.",
@@ -61,6 +64,8 @@ export const PROJECTS = [
   },
   {
     title: "Talk-A-Tive",
+    repo: "https://github.com/Akash290104/Final-Chat-Application",
+    live: "https://final-chat-application-xi.vercel.app/",
     image: project2,
     description:
       "A real-time chat application for online chats, group chat creation, group name updates, and member management.",
@@ -72,6 +77,22 @@ export const PROJECTS = [
       "Mongoose",
       "JavaScript",
       "Cloudinary",
+    ],
+  },
+  {
+    title: "StoreIt",
+    repo: "https://github.com/Akash290104/StoreIt",
+    live: "https://store-it-sooty-three.vercel.app/",
+    image: project3,
+    description:
+      "A robust and secure cloud storage and file management application.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "Next.js",
+      "Appwrite",
+      "Zod",
     ],
   },
 ];

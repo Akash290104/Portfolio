@@ -41,29 +41,13 @@ const Projects = () => {
               <div className="flex mb-5">
                 <button
                   className="bg-red-600 text-white border border-red-700 rounded-md px-2 py-2"
-                  onClick={() =>
-                    project?.title == "Talk-A-Tive"
-                      ? window.open(
-                          "https://github.com/Akash290104/Final-Chat-Application"
-                        )
-                      : window.open(
-                          "https://github.com/Akash290104/Learning-Management-System-LMS-"
-                        )
-                  }
+                  onClick={() => window.open(project.repo)}
                 >
                   Github Repo
                 </button>
                 <button
                   className="bg-red-600 text-white border border-red-700 rounded-md px-2 py-2 ml-5"
-                  onClick={() =>
-                    project?.title == "Talk-A-Tive"
-                      ? window.open(
-                          "https://final-chat-application-xi.vercel.app/"
-                        )
-                      : window.open(
-                          "https://learning-management-system-lms-gray.vercel.app"
-                        )
-                  }
+                  onClick={() => window.open(project.live)}
                 >
                   Live link
                 </button>
