@@ -51,7 +51,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
             >
               <FaProjectDiagram /> See My Projects
             </button>
-            <a
+            <a 
               href="https://drive.google.com/file/d/1uSNyND4sVdDvY0Oljtww_4uZIwWQSAEN/view"
               target="_blank"
               rel="noopener noreferrer"
