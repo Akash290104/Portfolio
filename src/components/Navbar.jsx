@@ -7,7 +7,9 @@ import {
   FaFile,
   FaEnvelope,
   FaProjectDiagram,
+  FaEye,
 } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa6";
 
 const Navbar = ({ scrollToProjects, scrollToContact }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,7 +59,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-cyan-300 transition"
             >
-              <FaFile /> View Resume
+              <FaEye /> View Resume
             </a>
 
             <a
@@ -65,7 +67,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
               download
               className="flex items-center gap-2 hover:text-cyan-300 transition"
             >
-              <FaFile /> Download Resume
+              <FaDownload /> Download Resume
             </a>
           </div>
 
