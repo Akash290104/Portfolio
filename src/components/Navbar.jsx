@@ -102,7 +102,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-cyan-300 transition"
           >
-            <FaFile /> View Resume
+            <FaEye /> View Resume
           </a>
 
           <a
@@ -110,7 +110,7 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
             download
             className="flex items-center gap-2 hover:text-cyan-300 transition"
           >
-            <FaFile /> Download Resume
+            <FaDownload /> Download Resume
           </a>
 
           <a
