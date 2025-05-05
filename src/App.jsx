@@ -5,6 +5,7 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import EducationTimeline from "./components/Education";
 
 const App = () => {
   const projectsRef = useRef(null);
@@ -19,6 +20,15 @@ const App = () => {
     contactRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+  const educationRef = useRef(null);
+
+  const scrollToEducation = () => {
+    educationRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <div className="overflow-x-hidden overflow-y-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900  ">
       <div className="fixed top-0 -z-10 max-h-full w-full">
@@ -29,9 +39,13 @@ const App = () => {
         <Navbar
           scrollToProjects={scrollToProjects}
           scrollToContact={scrollToContact}
+          scrollToEducation={scrollToEducation}
         />
         <Hero />
         <About />
+        <div ref={educationRef}>
+          <EducationTimeline />
+        </div>
         <Technologies />
         <div ref={projectsRef}>
           <Projects />

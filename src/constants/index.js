@@ -44,6 +44,21 @@ export const EXPERIENCES = [
   },
 ];
 
+export const EDUCATION = [
+  {
+    degree: "Bachelor of Technology (B.Tech)",
+    institute: "Indian Institute of Information Technology, Ranchi",
+    year: "2022 - 2026",
+    grade: "7.95 CGPA"
+  },
+  {
+    degree: "Senior Secondary",
+    institute: "G.N. National Public School, Gorakhpur",
+    year: "2021",
+    grade: "96.8%"
+  },
+]
+
 export const PROJECTS = [
   {
     title: "Learning Management System(LMS)",
@@ -102,3 +117,4 @@ export const CONTACT = {
   phoneNo: "+91-8874923563",
   email: "mishra.ak801@gmail.com",
 };
+

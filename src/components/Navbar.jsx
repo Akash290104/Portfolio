@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
 
-const Navbar = ({ scrollToProjects, scrollToContact }) => {
+const Navbar = ({ scrollToProjects, scrollToContact, scrollToEducation }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -41,6 +41,12 @@ const Navbar = ({ scrollToProjects, scrollToContact }) => {
 
           {/* Buttons (Hidden on Small Screens) */}
           <div className="hidden sm:flex items-center gap-4">
+            <button
+              onClick={scrollToEducation}
+              className="text-lg font-medium border-b-2 border-transparent hover:text-cyan-300 transition"
+            >
+              Education
+            </button>
             <button
               onClick={scrollToContact}
               className="text-lg font-medium border-b-2 border-transparent hover:text-cyan-300 transition"
