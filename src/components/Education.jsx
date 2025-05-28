@@ -2,6 +2,8 @@ import React from "react";
 import { EDUCATION } from "../constants";
 import { motion } from "framer-motion";
 
+
+
 const EducationTimeline = () => {
   return (
     <div id="education" className="border-b border-neutral-900 pb-4">

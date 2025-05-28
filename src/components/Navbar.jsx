@@ -127,6 +127,13 @@ const Navbar = ({ scrollToProjects, scrollToContact, scrollToEducation }) => {
           </a>
 
           <button
+            onClick={scrollToEducation}
+            className="text-lg font-medium border-b-2 border-transparent hover:text-cyan-300 transition"
+          >
+            Education
+          </button>
+
+          <button
             onClick={scrollToProjects}
             className="flex items-center gap-2 cursor-pointer hover:text-cyan-300 transition"
           >
