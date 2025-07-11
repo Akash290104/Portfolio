@@ -38,8 +38,8 @@ const EducationTimeline = () => {
                       {item.degree}
                     </h2>
                     <p className="mb-2 text-neutral-300">{item.institute}</p>
-                    <p className="mb-1 text-neutral-400">{item.year}</p>
-                    <p className="text-neutral-500 font-medium">
+                    <p className="mb-1 text-neutral-300">{item.year}</p>
+                    <p className="text-neutral-300 font-medium">
                       Grade: {item.grade}
                     </p>
                   </motion.div>
@@ -70,8 +70,8 @@ const EducationTimeline = () => {
                       {item.degree}
                     </h2>
                     <p className="mb-2 text-neutral-300">{item.institute}</p>
-                    <p className="mb-1 text-neutral-400">{item.year}</p>
-                    <p className="text-neutral-500 font-medium">
+                    <p className="mb-1 text-neutral-300">{item.year}</p>
+                    <p className="text-neutral-300 font-medium">
                       Grade: {item.grade}
                     </p>
                   </motion.div>
