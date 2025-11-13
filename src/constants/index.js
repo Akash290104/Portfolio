@@ -17,10 +17,10 @@ export const EXPERIENCE = [
   {
     company: "Agility AI Pvt Ltd",
     role: "Full-Stack Intern",
-    duration: "May 2025 - July 2025",
+    duration: "May 2025 - June 2025",
     points: [
-      "Developed 7+ AI-powered finance games", "Designed 30+ mini games for a target audience of 500+ students.",
-      "Contributed 35000+ lines of code.",
+      "Developed 7+ AI-powered games, and 30+ mini-games using React and Tailwind for 500+ students.",
+      "Built advanced gameplay with drag-and-drop using hello-pangea/dnd, real-time fall, and power-ups and added data visualization and animations using Chart.js, Recharts, Framer Motion and Canvas API.",
     ],
   },
 ];
@@ -59,23 +59,6 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Talk-A-Tive",
-    repo: "https://github.com/Akash290104/Final-Chat-Application",
-    live: "https://final-chat-application-xi.vercel.app/",
-    image: project2,
-    description:
-      "A real-time chat application for online chats, group chat creation, group name updates, and member management.",
-    technologies: [
-      "Express.js",
-      "Node.js",
-      "React.js",
-      "Shadcn - UI",
-      "Mongoose",
-      "JavaScript",
-      "Cloudinary",
-    ],
-  },
-  {
     title: "StoreIt",
     repo: "https://github.com/Akash290104/StoreIt",
     live: "https://store-it-sooty-three.vercel.app/",
@@ -91,6 +74,24 @@ export const PROJECTS = [
       "Zod",
     ],
   },
+  
+    {
+    title: "Talk-A-Tive",
+    repo: "https://github.com/Akash290104/Final-Chat-Application",
+    live: "https://final-chat-application-xi.vercel.app/",
+    image: project2,
+    description:
+      "A real-time chat application for online chats, group chat creation, group name updates, and member management.",
+    technologies: [
+      "Express.js",
+      "Node.js",
+      "React.js",
+      "Shadcn - UI",
+      "Mongoose",
+      "JavaScript",
+      "Cloudinary",
+    ],
+  }
 ];
 
 export const CONTACT = {
