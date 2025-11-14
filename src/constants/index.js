@@ -7,7 +7,7 @@ import project3 from "../assets/projects/storeit.png";
 export const HERO_CONTENT = `I am a passionate full-stack developer and college student who loves building dynamic web applications and solving complex problems through competitive programming. 
 With a keen eye for innovation, I strive to create efficient and scalable solutions that enhance user experiences.`;
 
-export const ABOUT_TEXT = `Hello there! 👋 I'm a final-year Bachelor of Technology student at the Indian Institute of Information Technology (IIIT) Ranchi, specializing in Computer Science and Engineering.
+export const ABOUT_TEXT = `Hello there! 👋 I'm a final-year Bachelor of Technology (B. Tech) student at the Indian Institute of Information Technology (IIIT) Ranchi, specializing in Computer Science and Engineering.
 
 I have a passion for full-stack development, competitive programming, and crafting efficient, scalable solutions. When I'm not lost in code, you’ll find me traveling to new places, getting lost in a good book, or exploring new ideas.
 
@@ -20,7 +20,8 @@ export const EXPERIENCE = [
     duration: "May 2025 - June 2025",
     points: [
       "Developed 7+ AI-powered games, and 30+ mini-games using React and Tailwind for 500+ students.",
-      "Built advanced gameplay with drag-and-drop using hello-pangea/dnd, real-time fall, and power-ups and added data visualization and animations using Chart.js, Recharts, Framer Motion and Canvas API.",
+      "Built advanced gameplay with drag-and-drop using hello-pangea/dnd, real-time fall, and power-ups.",
+      "Added data visualization and animations using Chart.js, Recharts, Framer Motion and Canvas API."
     ],
   },
 ];
