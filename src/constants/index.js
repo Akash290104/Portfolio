@@ -7,7 +7,7 @@ import project3 from "../assets/projects/storeit.png";
 export const HERO_CONTENT = `I am a passionate full-stack developer and college student who loves building dynamic web applications and solving complex problems through competitive programming. 
 With a keen eye for innovation, I strive to create efficient and scalable solutions that enhance user experiences.`;
 
-export const ABOUT_TEXT = `Hello there! 👋 I'm a pre-final year B.Tech. student at the Indian Institute of Information Technology (IIIT) Ranchi, specializing in Computer Science and Engineering.
+export const ABOUT_TEXT = `Hello there! 👋 I'm a final-year Bachelor of Technology student at the Indian Institute of Information Technology (IIIT) Ranchi, specializing in Computer Science and Engineering.
 
 I have a passion for full-stack development, competitive programming, and crafting efficient, scalable solutions. When I'm not lost in code, you’ll find me traveling to new places, getting lost in a good book, or exploring new ideas.
 
@@ -74,8 +74,8 @@ export const PROJECTS = [
       "Zod",
     ],
   },
-  
-    {
+
+  {
     title: "Talk-A-Tive",
     repo: "https://github.com/Akash290104/Final-Chat-Application",
     live: "https://final-chat-application-xi.vercel.app/",
@@ -91,7 +91,7 @@ export const PROJECTS = [
       "JavaScript",
       "Cloudinary",
     ],
-  }
+  },
 ];
 
 export const CONTACT = {
