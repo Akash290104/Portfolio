@@ -15,13 +15,21 @@ I thrive in dynamic environments where I can grow, collaborate with like-minded 
 
 export const EXPERIENCE = [
   {
+    company: "Clear",
+    role: "Software Engineer Intern",
+    duration: "November 2025 - Present",
+    points: [
+      "Building UI features using React.js, debugging issues, and enhancing component-level performance.",
+    ],
+  },
+  {
     company: "Agility AI Pvt Ltd",
     role: "Full-Stack Intern",
     duration: "May 2025 - June 2025",
     points: [
       "Developed 7+ AI-powered games, and 30+ mini-games using React and Tailwind for 500+ students.",
       "Built advanced gameplay with drag-and-drop using hello-pangea/dnd, real-time fall, and power-ups.",
-      "Added data visualization and animations using Chart.js, Recharts, Framer Motion and Canvas API."
+      "Added data visualization and animations using Chart.js, Recharts, Framer Motion and Canvas API.",
     ],
   },
 ];
