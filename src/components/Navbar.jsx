@@ -60,7 +60,7 @@ const Navbar = ({ scrollToProjects, scrollToContact, scrollToEducation }) => {
               <FaProjectDiagram /> See My Projects
             </button>
             <a
-              href="Resume link - https://drive.google.com/file/d/19LjgxupSOK-QOFluZvH9oXNIy2uLLWfM/view"
+              href="https://drive.google.com/file/d/19LjgxupSOK-QOFluZvH9oXNIy2uLLWfM/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-cyan-300 transition"
