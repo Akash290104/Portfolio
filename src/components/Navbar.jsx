@@ -60,7 +60,7 @@ const Navbar = ({ scrollToProjects, scrollToContact, scrollToEducation }) => {
               <FaProjectDiagram /> See My Projects
             </button>
             <a
-              href="https://drive.google.com/file/d/1_bWPDPDs04ZknA3NlqaCroGXjippll32/view"
+              href="Resume link - https://drive.google.com/file/d/19LjgxupSOK-QOFluZvH9oXNIy2uLLWfM/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-cyan-300 transition"
@@ -69,7 +69,7 @@ const Navbar = ({ scrollToProjects, scrollToContact, scrollToEducation }) => {
             </a>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1_bWPDPDs04ZknA3NlqaCroGXjippll32"
+              href="https://drive.google.com/uc?export=download&id=19LjgxupSOK-QOFluZvH9oXNIy2uLLWfM"
               download
               className="flex items-center gap-2 hover:text-cyan-300 transition"
             >
@@ -102,7 +102,7 @@ const Navbar = ({ scrollToProjects, scrollToContact, scrollToEducation }) => {
             <FaTimes />
           </button>
           <a
-            href="https://drive.google.com/file/d/1_bWPDPDs04ZknA3NlqaCroGXjippll32/view"
+            href="https://drive.google.com/file/d/19LjgxupSOK-QOFluZvH9oXNIy2uLLWfM/view"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-cyan-300 transition"
@@ -111,7 +111,7 @@ const Navbar = ({ scrollToProjects, scrollToContact, scrollToEducation }) => {
           </a>
 
           <a
-            href="https://drive.google.com/uc?export=download&id=1_bWPDPDs04ZknA3NlqaCroGXjippll32"
+            href="https://drive.google.com/uc?export=download&id=19LjgxupSOK-QOFluZvH9oXNIy2uLLWfM"
             download
             className="flex items-center gap-2 hover:text-cyan-300 transition"
           >
