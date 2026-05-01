@@ -19,7 +19,11 @@ export const EXPERIENCE = [
     role: "Software Engineer Intern",
     duration: "November 2025 - Present",
     points: [
-      "Building UI features using React.js, debugging issues, and enhancing component-level performance.",
+      "Built a database-driven solution replacing hardcoded city logic across 190+ cities and 220k records including schema design, APIs, and optimizing a backfill query from 13s to 1.35s (90% improvement)",
+      " Reduced Next.js build time from 228s to 14s (93% improvement) for 350+ pages by optimizing SSG data fetching, batching CMS pagination, and eliminating redundant API calls across static page builds",
+      "Implemented SSG for reusable components, improving SEO and consistency in server-client rendering",
+      "Improved CI pipelines in GitHub Actions by fixing dependencies, job order, and SonarQube issues",
+      "Added 250+ test cases for financial metrics and resolved FastAPI lifecycle-related test failures",
     ],
   },
   {
@@ -39,7 +43,7 @@ export const EDUCATION = [
     degree: "Bachelor of Technology (B.Tech)",
     institute: "Indian Institute of Information Technology, Ranchi",
     year: "2022 - 2026",
-    grade: "7.95 CGPA",
+    grade: "8.01 CGPA",
   },
   {
     degree: "Senior Secondary",
